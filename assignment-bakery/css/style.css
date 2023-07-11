@@ -1,0 +1,376 @@
+/* General Configuration */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+/* Hero Section */
+
+.hero {
+  background-image: url(/img/drew-coffman-1872.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 60%;
+  padding: 25px;
+}
+
+.nav-items {
+  float: right;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 20px;
+  margin-top: 15px;
+  vertical-align: middle;
+  font-size: 22px;
+}
+
+.nav-list li a {
+  color: #fff;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+.hero-content {
+  margin: 50px auto;
+  width: 60%;
+}
+.hero-content p,
+h1 {
+  text-align: center;
+  color: #fff;
+}
+.hero-content h1 {
+  font-size: 70px;
+}
+.hero-content p {
+  font-size: 30px;
+}
+.hero-content-btn {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.hero-content-btn a {
+  padding: 15px 28px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.btn {
+  border: solid 2px #fff;
+  border-radius: 5px;
+}
+.btn-brown {
+  background-color: #8e7754;
+  border-radius: 5px;
+  border: solid 2px transparent;
+}
+
+/* About Section */
+
+.about {
+  margin-bottom: 45px;
+}
+.about-info h1 {
+  color: #000;
+  text-align: left;
+}
+.about-image,
+.about-info {
+  float: left;
+}
+.about-image img {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.about-info {
+  display: inline-block;
+  width: 45%;
+  margin-top: 40px;
+}
+.about-info h1 {
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-info p {
+  font-size: 18px;
+  line-height: 2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon-list {
+  list-style: none;
+}
+.icon-list li img {
+  vertical-align: middle;
+}
+.icon-list li p {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Our Location Section */
+
+.our-location {
+  background-color: #f8f8f8;
+  margin: 40px 0;
+}
+
+.our-location-content {
+  width: 40%;
+  float: left;
+  padding: 20px;
+  margin: 40px 0;
+}
+.our-location-content h2,
+p {
+  text-align: left;
+}
+.our-location-content p {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2;
+  text-align: left;
+}
+.our-location-content h2 {
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.our-location-image img {
+  width: 45%;
+  float: right;
+  margin: 40px 0;
+}
+
+/* Our Baking */
+
+.our-baking {
+  margin: 40px 0;
+}
+
+.our-baking-title {
+  margin-bottom: 40px;
+  padding: 25px;
+}
+
+.our-baking-title h1 {
+  text-align: center;
+  color: #000;
+  font-size: 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.our-baking-title p {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.items {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+.inner {
+  background-color: #ada9a9;
+}
+
+.items img {
+  width: 100%;
+}
+
+.items h2,
+p {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Contact Information */
+
+.contact-info {
+  background-color: #f8f8f8;
+}
+
+.contact-info-title,
+.contact-info-map {
+  padding: 30px;
+  width: 45%;
+  float: left;
+  margin-top: 30px;
+}
+
+.contact-info-title p {
+  text-align: left;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2;
+}
+
+.contact-info-title h1 {
+  text-align: left;
+  color: #000;
+  font-size: 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-details {
+  list-style: none;
+}
+
+.contact-details li p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.contact-details li img {
+  vertical-align: middle;
+}
+
+.contact-info-map img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: #353330;
+}
+
+.about-us,
+.why-we-are-special,
+.opening-hours,
+.footer-contact-details {
+  width: 21%;
+  float: left;
+  padding: 30px;
+  color: #fff;
+}
+
+.footer-contact-details {
+  background-image: url(/img/contact-details-map.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.about-us h2,
+p {
+  text-align: left;
+}
+
+.about-us h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-us p {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2;
+}
+
+.why-we-are-special h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.why-we-are-special ul {
+  list-style: none;
+}
+
+.why-we-are-special ul li {
+  font-size: 18px;
+  padding: 15px;
+  border-bottom: #f8f8f8 1px solid;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.opening-hours h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.opening-hours ul {
+  list-style: none;
+}
+
+.opening-hours ul li {
+  font-size: 18px;
+  padding: 15px;
+  border-bottom: #f8f8f8 1px solid;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-contact-details h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-contact-details ul {
+  list-style: none;
+}
+
+.footer-contact-details p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.footer-contact-details img {
+  vertical-align: middle;
+}
+
+.logo-footer {
+  background-color: #191818;
+  padding: 30px;
+}
+
+.logo-footer-img {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.logo-footer-img p {
+  margin-top: 45px;
+  text-align: center;
+  color: #fff;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  padding: 10px;
+}
