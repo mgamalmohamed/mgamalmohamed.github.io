@@ -1058,4 +1058,12 @@ input[type="checkbox"] {
   .footer-about {
     width: 100%;
   }
+
+  .mode-switch {
+    display: flex;
+  }
+
+  .menu-bars {
+    color: #fff;
+  }
 }
